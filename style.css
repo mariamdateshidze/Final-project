@@ -270,10 +270,27 @@
 }
 
 
+.skills-socials{
+    display: flex;
+    flex-direction: column;
+}
 
+/* social media */
+.social-net img{
+    width: 60px;
+    padding: 18px;
+    background-color: #F9F9F9;
+    margin-right: 5px;
+}
 
+.social-net img:hover{
+    background-color: #15263E;
+    transition: all .5s;
+}
 
-
+.social-net{
+    margin-top: 50px;
+}
 
 
 
