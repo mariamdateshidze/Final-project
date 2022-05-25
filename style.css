@@ -173,6 +173,106 @@
     margin-top: 10px;
 }
 
+/* about me info */
+.about-me-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 150px;
+    margin-top: -200px;
+
+}
+
+.main-pic{
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.my-prof{
+    margin-top: 70px;
+    text-align: right;
+}
+
+.my-prof h2{
+    font-size: 33px;
+    line-height: 96px;
+    color: #222222;
+    margin-bottom: -50px;
+}
+
+.my-prof h4{
+    font-size: 14px;
+    line-height: 96px;
+    color: #DAAE19;
+}
+
+.my-prof p{
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.45px;
+    color: #555555;
+    margin-bottom: 60px;
+    width: 300px;
+}
+
+.my-prof button{
+    font-size: 15px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: #E93656;
+    padding: 12px 52px;
+    border: none;
+    cursor: pointer;
+}
+
+.my-prof button:hover{
+    background-color: #e7657d;
+    transition: all .5s;
+    
+}
+
+
+/* skills bars */
+.progress{
+    width: 300px;
+    height: 10px;
+    background-color: #F0F0F0;
+    margin-top: 100px;
+    border-radius: 6px;
+}
+
+.progress .progress-bar{
+    width: 0%;
+    opacity: 0;
+    height: 10px;
+    background-color: #E93656;
+    position: relative;
+    transition: all 2s;
+    border-radius: 6px;
+}
+
+.progress-bar span{
+   position: absolute;
+   bottom: -5px;
+   font-size: 20px;
+   line-height: 96px;
+   
+}
+
+.percentage{
+    color: red;  
+    left: 60px;
+}
+
+.long{
+    left: 130px;
+}
+
+
+
+
+
 
 
 
