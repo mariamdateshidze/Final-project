@@ -79,6 +79,34 @@
 
 
 /* my photos */
+
+.slider-wrapper {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+.slider-item {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.slider-item.active {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.slider-item.animating {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+}
+
 .my-photo{
     position: absolute;
     width: 100%;
