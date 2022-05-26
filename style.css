@@ -9,7 +9,7 @@
     max-width: 1900px;
     width: 100%;
     margin: 0 auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 
@@ -79,7 +79,6 @@
 
 
 /* my photos */
-
 .slider-wrapper {
     width: 100%;
     height: 400px;
@@ -232,7 +231,6 @@
     
 }
 
-
 /* skills bars */
 .progress{
     width: 300px;
@@ -291,6 +289,56 @@
 .social-net{
     margin-top: 50px;
 }
+
+/* contacts section */
+.contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1900px;
+    justify-content: center;
+    width: 100%;
+    height: 210px;
+    background-color: #131A36;
+    margin-top: 100px;
+    margin-bottom: 200px;
+   
+}
+
+.phone-number img{
+    width: 70px;
+    border-radius: 80px;
+    padding: 20px;
+    border: 2px dashed #FFFFFF;
+}
+
+.phone-number img:hover{
+    background-color: #E93656;
+    border: none;
+    transition: all .5s;
+}
+
+
+
+.my-contacts{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin-right: 40px;
+}
+
+.title-num{
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.75px;
+    margin-bottom: 10px;
+}
+
+
 
 
 
