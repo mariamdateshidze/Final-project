@@ -9,7 +9,7 @@
     max-width: 1900px;
     width: 100%;
     margin: 0 auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 
@@ -349,7 +349,7 @@
     height: 340px;
     background-color: #FAFAFA;
     opacity: 0.97;
-    border: 1px rgb(161, 157, 157) solid;
+    border: 1px rgb(185, 182, 182) solid;
     margin-right: 10px;
     position: relative;
     color: #222222;
@@ -378,6 +378,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 /* hover over services */
 .overlay{
@@ -426,8 +427,80 @@
     opacity: 0;
     transition: all .5s;
 } 
- 
 
+
+/* recommendations section */
+.recommendations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+    width: 100%;
+    height: 500px;
+    background-image: url("images/countdown-bg.png");
+    background-color: #222222;
+    background-repeat: no-repeat;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.icon{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    margin-right: 60px;
+    padding: 15px;
+    border-radius: 90px;
+    border: 3px dashed #FFFFFF ;
+}
+
+.recommendations p{
+    color: #FFFFFF;
+    margin-right: 60px;
+    width: 400px;
+    text-align: right;
+   font-size: 15px;
+   line-height: 30px;
+   letter-spacing: 0.45px;
+}
+
+.name-rec{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    width: 30px;
+    background-color: #DDDDDD;
+    border-radius: 90px;
+    padding: 2px;
+}
+
+.name-rec span{
+    font-size: 13px;
+    line-height: 80px;
+    letter-spacing: 0.52px;
+    margin-bottom: -40px;
+    color: #E93656;
+}
+
+.recommendations h3{
+    font-size: 28px;
+    line-height: 80px;
+    letter-spacing: 0.84px;
+    color: #FFFFFF;
+}
+
+
+.rectangle{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 3px white solid;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
 
 
 
