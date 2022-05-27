@@ -2,6 +2,10 @@
 const slideItems = document.querySelectorAll('.slider-item');
 
 
+const rectangles = document.querySelectorAll('.rectangle');
+const sliders = document.querySelectorAll('.content-box');
+
+
 let myInterval=null;
 let activeIndex = 0;
 
@@ -9,6 +13,7 @@ initSlider();
 function initSlider(){
     renderSliders();
     startAutoSliding();
+
 }
 
 function startAutoSliding(){
@@ -64,5 +69,40 @@ window.addEventListener('scroll', () => {
         hideProgress();
     }
 });
+
+
+// rectangle buttons
+rectangles.forEach((rectangle ,rectanglesindex) => {
+    rectangle.addEventListener('click', () => {
+        handleRecClick(rectanglesindex);
+        
+    });
+});
+
+function sliderButtons() {
+  sliders.forEach((item, i) => {
+    if(activeIndex === i){
+      item.classList.add('active');
+
+    } else {
+      item.classList.remove('active');
+    }
+  })
+
+  rectangles.forEach((item, i) => {
+    if(activeIndex === i){
+      item.classList.add('active');
+
+    } else {
+      item.classList.remove('active');
+    }
+  })
+}
+
+function handleRecClick(nextIndex){
+  activeIndex = nextIndex;
+  sliderButtons();
+}
+
 
  

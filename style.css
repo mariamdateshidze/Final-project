@@ -492,15 +492,51 @@
     color: #FFFFFF;
 }
 
-
 .rectangle{
+    display: flex;
+    flex-direction: column;
     width: 20px;
     height: 20px;
     background-color: transparent;
     border: 3px white solid;
     margin-bottom: 20px;
     margin-left: 100px;
+    cursor: pointer;
 }
+
+.content-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-box {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.content-box.active{
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.rectangle:hover {
+    border: 3px #E93656 solid;
+    transition: all .5s;
+}
+
+.rectangle.active{
+    border: 3px #E93656 solid;
+}
+
+.content-box.animating {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+}
+
 
 
 
