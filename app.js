@@ -1,9 +1,12 @@
 // slider
 const slideItems = document.querySelectorAll('.slider-item');
 
-
 const rectangles = document.querySelectorAll('.rectangle');
 const sliders = document.querySelectorAll('.content-box');
+
+const projectsTitles = document.querySelectorAll('.project-title');
+const projects = document.querySelectorAll('.image');
+const pinkLine = document.querySelectorAll('.pink-line');
 
 
 let myInterval=null;
@@ -102,7 +105,45 @@ function sliderButtons() {
 function handleRecClick(nextIndex){
   activeIndex = nextIndex;
   sliderButtons();
+  
+}
+
+// latest projects
+projectsTitles.forEach((project, projectsindex) => {
+  project.addEventListener('click', () => {
+     handleRecClick(projectsindex);
+     latestprojects();
+  });
+});
+
+function latestprojects() {
+  projectsTitles.forEach((item, i) => {
+  if(activeIndex === i){
+    item.classList.add('active');
+
+  } else {
+    item.classList.remove('active');
+  }
+});
+
+  pinkLine.forEach((item, i) => {
+    if(activeIndex === i){
+      item.classList.add('active');
+
+    } else {
+      item.classList.remove('active');
+    }
+  });
 }
 
 
+// function singleProjects() {
+//   projects.forEach((item, i) => {
+//     if(activeIndex === i){
+      
+  
+//     } 
+  
+// });
+// }
  
