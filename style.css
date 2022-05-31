@@ -835,3 +835,17 @@
     color: #494949;
  }
 
+ /* team section */
+ .team-section{
+     margin-top: 170px;
+ }
+
+.five-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 200px;
+}
+
+
+
