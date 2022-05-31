@@ -136,14 +136,42 @@ function latestprojects() {
   });
 }
 
+// const projectsWorkIdeas = document.querySelectorAll('.mockup, .icons, .presentation, .psd-design');
+// const projectsMockup = document.querySelectorAll('.work-ideas, .icons, .presentation, .psd-design');
+// const projectsIcons = document.querySelectorAll('.work-ideas, .mockup, .presentation, .psd-design');
 
 // function singleProjects() {
-//   projects.forEach((item, i) => {
-//     if(activeIndex === i){
-      
-  
+
+//   projectsWorkIdeas.forEach((item, index) => {
+//     if(activeIndex === 1){
+//       item.classList.add('unvisible');
 //     } 
+//     else {
+//       item.classList.remove('unvisible');
+//     }
+//   });
+  
+//   projectsMockup.forEach((item, index) => {
+//     if(activeIndex === 2){
+//       item.classList.add('unvisible');
+//     } 
+//     else {
+//       item.classList.remove('unvisible');
+//     }
+    
+// });
+
+// projectsIcons.forEach((item, index) => {
+//   if(activeIndex === 3){
+//     item.classList.add('unvisible');
+//   } 
+//   else {
+//     item.classList.remove('unvisible');
+//   }
   
 // });
+
 // }
+
+
  
