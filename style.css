@@ -122,8 +122,6 @@
     right: 300px;
 
 }
-
-
 .who-am-i{
     font-size: 44px;
     line-height: 78px;
@@ -148,6 +146,12 @@
     width: 30px;
     margin-top: 30px;
     margin-right: 20px;
+}
+
+.socials img:hover{
+   background-color: rgb(255, 239, 239);
+   border-radius: 20px;
+    transition: all .5s;
 }
 
 .clients-satisf{
@@ -316,9 +320,8 @@
     background-color: #E93656;
     border: none;
     transition: all .5s;
+    cursor: pointer;
 }
-
-
 
 .my-contacts{
     display: flex;
@@ -525,7 +528,6 @@
     opacity: 1;
 }
 
-
 .rectangle:hover {
     border: 3px #E93656 solid;
     transition: all .5s;
@@ -607,17 +609,6 @@
 .image{
     position: relative;
     opacity: 1;
-}
-
-.image.unvisible{
-    opacity: 0;
-    transition: all .5s;
-    transform: translateY(100px);
-
-}
-
-.image.unvisible img{
-    display: flex;
 }
 
 .pic-overlay{
@@ -946,6 +937,7 @@
     width: 290px;
     height: 50px;
     border: none;
+    outline: none;
 }
 input{
     font-size: 10px;
@@ -953,6 +945,7 @@ input{
     color: #515151;
     padding-left: 30px;
 }
+
 .three-form-row{
     display: flex;
     flex-direction: row;
@@ -966,6 +959,7 @@ textarea{
     width: 900px;
     height: 110px;
     padding: 30px;
+    outline: none;
 }
 
 #send-btn{

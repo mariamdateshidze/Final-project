@@ -136,42 +136,86 @@ function latestprojects() {
   });
 }
 
-// const projectsWorkIdeas = document.querySelectorAll('.mockup, .icons, .presentation, .psd-design');
-// const projectsMockup = document.querySelectorAll('.work-ideas, .icons, .presentation, .psd-design');
-// const projectsIcons = document.querySelectorAll('.work-ideas, .mockup, .presentation, .psd-design');
 
-// function singleProjects() {
+//  filter projects
+for (i = 0; i < projectsTitles.length; i++) {
+  projectsTitles[i].addEventListener("click", (e) => {
+    e.preventDefault();
 
-//   projectsWorkIdeas.forEach((item, index) => {
-//     if(activeIndex === 1){
-//       item.classList.add('unvisible');
-//     } 
-//     else {
-//       item.classList.remove('unvisible');
-//     }
-//   });
-  
-//   projectsMockup.forEach((item, index) => {
-//     if(activeIndex === 2){
-//       item.classList.add('unvisible');
-//     } 
-//     else {
-//       item.classList.remove('unvisible');
-//     }
+    const filter = e.target.dataset.filter;
     
-// });
+    projects.forEach((project) => {
+      if (filter == "all") {
+        project.style.display = "block"
 
-// projectsIcons.forEach((item, index) => {
-//   if(activeIndex === 3){
-//     item.classList.add('unvisible');
-//   } 
-//   else {
-//     item.classList.remove('unvisible');
+      } else {
+        if (project.classList.contains(filter)) {
+          project.style.display = "block"
+        }else {
+          project.style.display = "none"
+        }
+      }
+    })
+  })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// filterObjects("all");
+
+// function filterObjects(c){
+//   let x, i;
+//   x = document.querySelectorAll('.image')
+//   if (c === "all") c ="";
+//   for (i = 0; i < x.length; i++){
+//     removeClass(x[i], "show");
+//     if (x[i].className.indexOf(c) > -1) addClass(x[i], "show")
 //   }
-  
-// });
+// }
+
+// function addClass(element, name){
+//   let i, arr1, arr2;
+//   arr1 = element.className.split(" ");
+//   arr2 = name.split(" ");
+//   for (i = 0; i < arr2.length; i++){
+//     if (arr1.indexOf(arr2[i] == -1)){
+//       element.className += " " + arr2[i];
+//     }
+//   }
 
 // }
 
+// function removeClass(element, name){
+//   let i, arr1, arr2;
+//   arr1 = element.className.split(" ");
+//   arr2 = name.split(" ");
+//   for (i = 0; i < arr2.length; i++){
+//     while (arr1.indexOf(arr2[i])){
+//       arr1.splice(arr1.indexOf(arr2[i]), 1);
+//     }
+//   }
+//   element.className = arr1.join(" ");
 
- 
+// }
