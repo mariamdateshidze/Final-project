@@ -105,13 +105,13 @@ function sliderButtons() {
 function handleRecClick(nextIndex){
   activeIndex = nextIndex;
   sliderButtons();
-  
+
 }
 
 // latest projects
 projectsTitles.forEach((project, projectsindex) => {
   project.addEventListener('click', () => {
-     handleRecClick(projectsindex);
+     handleClick(projectsindex);
      latestprojects();
   });
 });
@@ -135,6 +135,12 @@ function latestprojects() {
     }
   });
 }
+
+function handleClick(nextIndex){
+  activeIndex = nextIndex;
+  latestprojects();
+}
+
 
 
 //  filter projects

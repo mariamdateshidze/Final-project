@@ -12,7 +12,6 @@
     /* background-color: rgb(212, 189, 241); */
 }
 
-
 /* title */
 .about-me{
     position: relative;
@@ -35,6 +34,7 @@
     line-height: 55px;
     color: #1A1A1A;
     letter-spacing: 1.2px;
+    font-family: 'Poppins';
 }
 
 .dot{
@@ -48,6 +48,7 @@
     line-height: 55px;
     color: #B3B3B3;
     margin-top: -35px;
+    font-family: 'Poppins';
    
 }
 
@@ -59,24 +60,23 @@
 
 .about-me-01{
     position: absolute;
-    font-size: 43px;
+    font-size: 35px;
     line-height: 52px;
     color: #373737;
-    letter-spacing: 1.3px;
+    letter-spacing: 0.3px;
     top: 160px;
-    right: 30px;
-    
+    right: 22px;
+    font-family: 'Poppins';
 }
 
 .number{
     position: relative;
-    font-size: 130px;
+    font-size: 100px;
     line-height: 331px;
     color: #1C1C1C;
     letter-spacing: 4.75px;
+    font-family: 'Poppins';
 }
-
-
 
 /* my photos */
 .slider-wrapper {
@@ -127,6 +127,7 @@
     line-height: 78px;
     color: #212121;
     letter-spacing: 0.75px; 
+    font-family: 'Lato';
 }
 
 .name{
@@ -134,12 +135,14 @@
     line-height: 78px;
     color: #212121;
     letter-spacing: 1.06px; 
+    font-family: 'Lato';
 }
 
 .profesion{
     font-size: 23px;
     line-height: 64px;
     color: #212121;
+    font-family: 'Lato';
 }
 
 .socials img{
@@ -161,6 +164,7 @@
     font-size: 24px;
     line-height: 32px;
     color: #212121;
+    font-family: 'Poppins';
 }
 
 .percent{
@@ -202,12 +206,14 @@
     line-height: 96px;
     color: #222222;
     margin-bottom: -50px;
+    font-family: 'Lato';
 }
 
 .my-prof h4{
     font-size: 14px;
     line-height: 96px;
     color: #DAAE19;
+    font-family: 'Lato';
 }
 
 .my-prof p{
@@ -217,6 +223,7 @@
     color: #555555;
     margin-bottom: 60px;
     width: 300px;
+    font-family: 'Lato';
 }
 
 .my-prof button{
@@ -259,6 +266,7 @@
    bottom: -5px;
    font-size: 20px;
    line-height: 96px;
+   font-family: 'Poppins';
    
 }
 
@@ -270,7 +278,6 @@
 .long{
     left: 130px;
 }
-
 
 .skills-socials{
     display: flex;
@@ -308,7 +315,6 @@
     margin-bottom: 200px;
    
 }
-
 .phone-number img{
     width: 70px;
     border-radius: 80px;
@@ -332,6 +338,7 @@
     line-height: 24px;
     letter-spacing: 0.42px;
     margin-right: 40px;
+    font-family: 'Lato';
 }
 
 .title-num{
@@ -367,6 +374,8 @@
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 0.44px;
+    color: #222222;
+    font-family: 'Poppins';
 }
 
 .four-services{
@@ -401,12 +410,17 @@
     line-height: 28px;
     letter-spacing: 0.44px;
     margin-bottom: 30px;
+    font-family: 'Poppins';
+
 }
 
 .overlay p{
     font-size: 14px;
     line-height: 26px;
+    padding: 5px;
     letter-spacing: 0.42px;
+    font-family: 'Poppins';
+
 }
 
 .service-one:hover{
@@ -441,7 +455,7 @@
     padding: 0 200px;
     width: 100%;
     height: 500px;
-    background-image: url("images/countdown-bg.png");
+    background-image: url('../images/countdown-bg.png');
     background-color: #222222;
     background-repeat: no-repeat;
     margin-top: 160px;
@@ -470,6 +484,7 @@
    font-size: 15px;
    line-height: 30px;
    letter-spacing: 0.45px;
+   font-family: 'Lato';
 }
 
 .name-rec{
@@ -490,13 +505,15 @@
     letter-spacing: 0.52px;
     margin-bottom: -40px;
     color: #E93656;
+    font-family: 'Lato';
 }
 
 .recommendations h3{
-    font-size: 28px;
+    font-size: 24px;
     line-height: 80px;
     letter-spacing: 0.84px;
     color: #FFFFFF;
+    font-family: 'Lato';
 }
 
 .rectangle{
@@ -561,6 +578,12 @@
     margin-top: 15px;
     margin-left: 40px;
     cursor: pointer;
+    font-family: 'Poppins';
+
+}
+
+a{
+    text-decoration: none;
 }
 
 .project-title:hover{
@@ -583,7 +606,10 @@
     line-height: 36px;
     color: #2E2E2E;
     margin-bottom: 90px;
+    font-family: 'Poppins';
+
 }
+
 .projects-box{
     display: flex;
     flex-direction: column;
@@ -656,11 +682,15 @@
     letter-spacing: 0.33px;
     color: #DDDDDD;
     margin-bottom: 5px;
+    font-family: 'Poppins';
+
 }
 .pic-overlay h3{
     font-size: 23px;
     line-height: 44px;
     color: #FFFFFF;
+    font-family: 'Poppins';
+
 }
 
 .pink-title{
@@ -706,12 +736,16 @@
     line-height: 36px;
     color: #2ED279;
     margin-bottom: 5px;
+    font-family: 'Poppins';
+
 }
 .articles-title h3{
     font-size: 70px;
     line-height: 36px;
     color: #2E2E2E;
     margin-bottom: 70px;
+    font-family: 'Poppins';
+
 }
 
 .one-block{
@@ -742,17 +776,16 @@
 .article-image{
     width: 840px;
     height: 490px;
-   background-image: url('images/article2.jpg');
+    background-image: url('../images/aricle1.jpg');
     object-fit: cover;
 }
 
 .second-article-image{
     width: 875px;
-    background-image: url('images/article3.jpg');
+    background-image: url('../images/article2.jpg');
 }
 .third-article-image{
-    
-    background-image: url('images/aricle1.jpg');
+    background-image: url('../images/article3.jpg');
 }
 
 .rotated-text{
@@ -811,12 +844,14 @@
    letter-spacing: 1.12px;
    color: #888888;
    margin-bottom: 10px;
+   font-family: 'Lato';
 }
 .article-content h3{
     font-size: 40px;
     line-height: 44px;
     color: #161616;
     margin-bottom: 25px;
+    font-family: 'Lato';
  }
 
  .article-content p{
@@ -824,6 +859,7 @@
     line-height: 30px;
     letter-spacing: 0.48px;
     color: #494949;
+    font-family: 'Lato';
  }
 
  /* team section */
@@ -881,21 +917,23 @@
     color: #161616;
     letter-spacing: 0.32px;
     margin-bottom: 10px;
+    font-family: 'Lato';
 }
 
 .icon-overlay p{
-    font-size: 13px;
+    font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.39px;
     color: #626262;
     margin-bottom: 10px;
+    font-family: 'Lato';
 }
 
 /* contact us section */
 .contact-us-section{
     width: 100%;
     height: 660px;
-    background:  url('images/mapp.png');
+    background-image: url('../images/mapp.png');
 }
 
 .form-section{
@@ -923,6 +961,8 @@
     letter-spacing: 1.35px;
     color: #FFFFFF;
     margin-bottom: 12px;
+    font-family: 'Poppins';
+
 }
 
 .form-title span{
@@ -931,6 +971,8 @@
     letter-spacing: 0.51px;
     color: #EEEEEE;
     margin-bottom: 46px;
+    font-family: 'Poppins';
+
 }
 
 .name-form{
@@ -1001,6 +1043,8 @@ textarea{
     letter-spacing: 1.66px;
     color: #FFFFFF;
     margin-bottom: 23px;
+    font-family: 'Poppins';
+
 }
 
 .footer-title span{
@@ -1017,6 +1061,7 @@ textarea{
     padding: 0 300px;
     text-align: center;
     margin-bottom: 60px;
+    font-family: 'Poppins';
 }
 
 .footer-section-two{
@@ -1029,8 +1074,10 @@ textarea{
     font-size: 15px;
     line-height: 24px;
     color: #A0A8B7;
+    font-family: 'Lato';
 }
 
 .white-span{
     color: #FFFFFF;
+    font-family: 'Lato';
 }
