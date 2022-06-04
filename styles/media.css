@@ -1,3 +1,199 @@
 @media (max-width: 1024px){
+    .my-photo{
+        display: none;
+    }
+
+    .my-info{
+       right: 200px;
+       top: 470px;
+       align-items: center;
+    }
+
+    .about-me{
+        background-image: url(../images/blogger.png);
+        background-size: 30% 30%;
+        background-position: 55% 30%;
+        background-repeat: no-repeat;
+        background-color: aliceblue;
+        align-items: center;
+    }
+
+    .about-me-box{
+        flex-wrap: wrap;
+    }
+
+    .my-prof{
+        text-align: center;
+    }
+
+    .my-prof button{
+        margin-bottom: 40px;
+    }
+    .main-pic{
+        border-radius: 1%;
+    }
+
+    .contacts{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .my-contacts{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phone-number img{
+        width: 60px;
+    }
+
+    .title-num{
+        font-size: 18px;
+    }
+
+    .four-services{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+   .quote{
+       display: none;
+   }
+   .name-rec{
+       align-items: center;
+       margin-right: 50px;
+   }
+
+   .content-box{
+       flex-wrap: wrap;
+       flex-direction: column-reverse;
+       align-items: center;
+   }
+
+   .recommendations p{
+       text-align: center;
+       margin-top: 20px;
+   }
+   .projects-box{
+       flex-wrap: wrap;
+   }
+
+   .projects-three{
+        flex-wrap: wrap;
+   }
+   .blue-box{
+       margin-left: 20px;
+   }
+
+   .article-content p{
+        line-height: 20px;
+   }
+   .article-content{
+       padding: 20px;
+   }
+   .article-image{
+       max-width: 500px;
+       width: 100%;
+   }
+   .middle-blue-box{
+       width: 100px;
+      display: none;
+   }
+   .five-box{
+        padding: 70px 30px;
+        flex-wrap: wrap;
+    }
+
+   .partner-box{
+       margin-right: 40px;
+       margin-top: 40px;
+       align-items: center;
+   }
+
+   .contact-us-section{
+       height: 800px;
+   }
+
+   .three-form-row{
+       flex-direction: column;
+       align-items: center;
+   }
+   textarea{
+       max-width: 500px;
+   }
+  
+   .footer-section-one{
+       height: 800px;
+   }
+
+}
+
+@media (max-width: 768px){
+    .about-me{
+        background-image: none;
+    }
+
+    .my-info{
+        right: 150px;
+        top: 370px;
+        align-items: center;
+     }
+
+     .contacts{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 500px;
+    }
+    .article-content{
+        padding: 90px 30px;
+    }
+
+    .article-content p{
+       display: none;
+   }
+
+}
+
+@media (max-width: 480px){
+    .me-01-wrapper{
+        display: none;
+    }
+    .about-me{
+       background-color: rgb(172, 73, 73);
+       max-width: 1000px;
+       width: 100%;
+    }
+    .my-info{
+        right: auto;
+        top: 230px;
+        text-align: center;
+        align-items: center;
+     }
+     .four-services{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
     
+   .recommendations p{
+        display: none;
+    }
+
+    .latest-projects h2{
+        font-size: 35px;
+    }
+
+    .blue-box{
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .articles{
+        display: none;
+    }
+
+    textarea{
+        width: 100%;
+
+    }
+
 }

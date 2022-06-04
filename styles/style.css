@@ -15,6 +15,7 @@
 /* title */
 .about-me{
     position: relative;
+    max-width: 1600px;
     width: 100%;
     height: 900px;
     background-color: #DDDDDD;
@@ -306,8 +307,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 1900px;
     justify-content: center;
+    max-width: 1600px;
     width: 100%;
     height: 210px;
     background-color: #131A36;
@@ -453,6 +454,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 200px;
+    max-width: 1600px;
     width: 100%;
     height: 500px;
     background-image: url('../images/countdown-bg.png');
@@ -579,7 +581,6 @@
     margin-left: 40px;
     cursor: pointer;
     font-family: 'Poppins';
-
 }
 
 a{
@@ -720,7 +721,7 @@ a{
 
 /* articles section */
 .articles{
-    max-width: 1400px;
+    max-width: 1600px;
     width: 100%;
     margin: 0 auto;
 }
@@ -893,6 +894,7 @@ a{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    z-index: 1;
     opacity: 0;
     transition: opacity 0.25s;
 }
@@ -931,6 +933,7 @@ a{
 
 /* contact us section */
 .contact-us-section{
+    max-width: 1600px;
     width: 100%;
     height: 660px;
     background-image: url('../images/mapp.png');
@@ -972,7 +975,6 @@ a{
     color: #EEEEEE;
     margin-bottom: 46px;
     font-family: 'Poppins';
-
 }
 
 .name-form{
