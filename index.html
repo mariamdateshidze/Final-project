@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- seo meta tags -->
+     <meta name="description" content="Final project" />
+     <meta name="keywords" content="HTML, CSS, JAVASCRIPT, portfolio" />
+     <meta name="author" content="Mariam Dateshidze" />
+ 
+     <!-- fb meta tags -->
+     <meta property="og:url" content=" https://mariamdateshidze.github.io/Final-project/" />
+     <meta property="og:type" content="article" />
+     <meta property="og:title" content="Final project" />
+     <meta
+       property="og:description"
+       content="Learn more about my profession and projects!"
+     />
+     <meta
+       property="og:image"
+       content="images/article2.jpg"
+     />
+
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/media.css">
@@ -460,7 +479,7 @@
                         <img src="images/Layer 2.png" alt="partner logo">
                         <div class="icon-overlay">
                             <h3>CLIENT 1</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora eveniet quidem autem. 
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit 
                             </p>
                         </div>
                     </div>
@@ -468,7 +487,7 @@
                         <img src="images/Layer 3.png" alt="partner logo">
                         <div class="icon-overlay">
                             <h3>CLIENT 2</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora eveniet quidem autem in 
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit
                             </p>
                         </div>
                     </div>
@@ -476,7 +495,7 @@
                         <img src="images/Layer 4.png" alt="partner logo">
                         <div class="icon-overlay">
                             <h3>CLIENT 3</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora eveniet quidem autem in
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
                         </div>
                     </div>
@@ -484,7 +503,7 @@
                         <img src="images/Layer 5.png" alt="partner logo">
                         <div class="icon-overlay">
                             <h3>CLIENT 4</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora eveniet quidem autem in 
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  
                             </p>
                         </div>
                     </div>
@@ -492,7 +511,7 @@
                         <img src="images/Layer 3.png" alt="partner logo">
                         <div class="icon-overlay">
                             <h3>CLIENT 5</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora eveniet quidem autem in 
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
                         </div>
                     </div>
@@ -506,26 +525,24 @@
                         <h3>CONTACT US</h3>
                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
                     </div>
-                    <form id="user-login-form" method="post" action="/" novalidate>
+                    <form id="user-signup-form" method="post" action="/" novalidate>
                         <div class="three-form-row">
                             <div class="form-field">
                                 <label>
-                                    <input class="name-form" name="name" type="text" placeholder="Your Name*">
-                                    <p class="error-message"></p>
+                                    <input  id="first_name" class="name-form" name="name" type="text" placeholder="Your Name*">
                                 </label>
                             </div>
                   
                              <div class="form-field">
                                  <label>
-                                     <input  class="name-form" name="email" type="email" placeholder="Email Address*">
+                                     <input  id="email" class="name-form" name="email" type="email" placeholder="Email Address*">
                                      <p class="error-message"></p>
                                  </label>
                              </div>
     
                              <div class="form-field">
                                 <label>
-                                    <input  class="name-form" name="website" type="url" placeholder="Your Website*">
-                                    <p class="error-message"></p>
+                                    <input id="website" class="name-form" name="website" type="url" placeholder="Your Website*">
                                 </label>
                             </div>
 
@@ -533,11 +550,15 @@
                         <div class="column-row">
                             <div class="form-field">
                                 <label>
-                                   <textarea name="user-message" id="user-message" cols="30" rows="5" placeholder="Message*"></textarea>
+                                   <textarea id="message"  name="user-message" id="user-message" cols="30" rows="5" placeholder="Message*"></textarea>
                                 </label>
                             </div>
                   
                             <button id="send-btn" type="submit">SEND MESSAGE</button>
+                            <div  class="modal my-modal">
+                                <p class="modal-content">Thank you for getting in touch! We appreciate you contacting us.</p>
+                                <button  id="close-btn" class="modal-close"  type="submit">Close</button>
+                            </div>
                         </div>
                     </form>
                 </div>

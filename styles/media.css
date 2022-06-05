@@ -83,10 +83,10 @@
    .blue-box{
        margin-left: 20px;
    }
-
    .article-content p{
         line-height: 20px;
    }
+
    .article-content{
        padding: 20px;
    }
@@ -95,7 +95,6 @@
        width: 100%;
    }
    .middle-blue-box{
-       width: 100px;
       display: none;
    }
    .five-box{
@@ -120,18 +119,15 @@
    textarea{
        max-width: 500px;
    }
-  
    .footer-section-one{
        height: 800px;
    }
-
 }
 
 @media (max-width: 768px){
     .about-me{
         background-image: none;
     }
-
     .my-info{
         right: 150px;
         top: 370px;
@@ -150,50 +146,128 @@
     .article-content p{
        display: none;
    }
+    .rectangle{
+       margin-left: -50px;
+    }
 
+   .blue-box{
+       text-align: center;
+       margin-bottom: 30px;
+   }
+   .main-projects{
+       display: flex;
+       flex-direction: column;
+   }
+   .description-box{
+       display: none;
+   }
+
+   .middle-blue-box{
+       display: block;
+   }
+
+   textarea{
+       width: 100%;
+   }
+   .four-services{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .recommendations{
+        padding: 0 0;
+    }
 }
 
 @media (max-width: 480px){
     .me-01-wrapper{
         display: none;
     }
-    .about-me{
-       background-color: rgb(172, 73, 73);
-       max-width: 1000px;
-       width: 100%;
-    }
+
     .my-info{
-        right: auto;
-        top: 230px;
         text-align: center;
-        align-items: center;
-     }
-     .four-services{
+        left: 20px;
+        right: auto;
+        top: 200px;
+
+    }
+    .who-am-i{
+        font-size: 30px;
+    }
+
+    .name{
+        font-size: 36px;
+    }
+
+    .clients-satisf{
+        display: none
+    }
+    .main-pic{
+       max-width: 180px;
+    }
+
+    .four-services{
         display: grid;
         grid-template-columns: auto;
     }
 
-    
-   .recommendations p{
-        display: none;
-    }
-
     .latest-projects h2{
-        font-size: 35px;
+        font-size: 40px;
+        margin-top: 50px;
     }
 
-    .blue-box{
-        width: 200px;
-        margin-left: 10px;
+    .articles-title h3{
+        font-size: 40px;
     }
 
-    .articles{
+    .recommendations p{
         display: none;
     }
 
-    textarea{
-        width: 100%;
-
+    .rectangle{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .five-box{
+        padding: 0 20px;
     }
 
+    .partner-box{
+        margin-right: 0;
+    }
+
+    .form-title h3{
+        font-size: 40px;
+    }
+
+    .form-title span{
+        display: none;
+    }
+    .name-form{
+        width: 100%;
+    }
+
+    .footer-section-one{
+        height: 600px;
+    }
+
+    .footer-section-one p{
+        display: none;
+    }
+
+    .blue-socials{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .footer-section-two{
+        font-size: 12px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px){
+    .my-contacts{
+        margin-right: 0;
+    }
 }
