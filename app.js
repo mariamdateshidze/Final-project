@@ -201,7 +201,6 @@ async function createUser(userData){
 const modalOpenBtn = document.querySelector('#send-btn');
 const myModal = document.querySelector('.my-modal');
 
-
 modalOpenBtn.addEventListener('click', () => {
   openModal('.my-modal');
 })
@@ -213,7 +212,6 @@ function openModal(modalSelector){
     const closeBtn = modalNode.querySelector('.modal-close');
     closeBtn.addEventListener('click', () => {
          closeModal(modalSelector)
-         
   })
 }
 function closeModal(modalSelector){

@@ -58,7 +58,7 @@
    .quote{
        display: none;
    }
-   .name-rec{
+   .name-box{
        align-items: center;
        margin-right: 50px;
    }
@@ -161,7 +161,7 @@
     }
 
    .blue-box{
-    align-items: center;
+        align-items: center;
        margin-bottom: 30px;
    }
    .main-projects{
@@ -204,9 +204,9 @@
         height: 300px;
     }
     #close-btn{
-     font-size: 20px;
-     margin-left: 230px;
-     margin-top: -20px;
+        font-size: 20px;
+        margin-left: 230px;
+        margin-top: -20px;
     }
 }
 

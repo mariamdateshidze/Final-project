@@ -9,14 +9,11 @@
     max-width: 1900px;
     width: 100%;
     margin: 0 auto;
-    /* background-color: rgb(212, 189, 241); */
 }
 
 /* title */
 .about-me{
     position: relative;
-    /* max-width: 1600px;
-    width: 100%; */
     height: 900px;
     background-color: #DDDDDD;
 }
@@ -27,7 +24,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 52px;
-
 }
 
 .roca-title{
@@ -50,14 +46,12 @@
     color: #B3B3B3;
     margin-top: -35px;
     font-family: 'Poppins';
-   
 }
 
 .roca{
     display: flex;
     flex-direction: column;
 }
-
 
 .about-me-01{
     position: absolute;
@@ -86,7 +80,6 @@
     overflow: hidden;
     margin: 0;
     padding: 0;
-
 }
 
 .slider-item {
@@ -121,7 +114,6 @@
     flex-direction: column;
     top: 300px;
     right: 300px;
-
 }
 .who-am-i{
     font-size: 44px;
@@ -170,7 +162,6 @@
 
 .percent{
     color: #E93656;
-
 }
 
 .red-line{
@@ -188,7 +179,6 @@
     justify-content: center;
     padding: 0 150px;
     margin-top: -200px;
-
 }
 
 .main-pic{
@@ -240,7 +230,6 @@
 .my-prof button:hover{
     background-color: #e7657d;
     transition: all .5s;
-    
 }
 
 /* skills bars */
@@ -268,7 +257,6 @@
    font-size: 20px;
    line-height: 96px;
    font-family: 'Poppins';
-   
 }
 
 .percentage{
@@ -276,7 +264,7 @@
     left: 60px;
 }
 
-.long{
+.line-lenght{
     left: 130px;
 }
 
@@ -308,13 +296,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* max-width: 1600px;
-    width: 100%; */
     height: 210px;
     background-color: #131A36;
     margin-top: 100px;
     margin-bottom: 200px;
-   
 }
 .phone-number img{
     width: 70px;
@@ -412,7 +397,6 @@
     letter-spacing: 0.44px;
     margin-bottom: 30px;
     font-family: 'Poppins';
-
 }
 
 .overlay p{
@@ -454,8 +438,6 @@
     justify-content: center;
     align-items: center;
     padding: 0 200px;
-    /* max-width: 1600px;
-    width: 100%; */
     height: 500px;
     background-image: url('../images/countdown-bg.png');
     background-color: #222222;
@@ -489,7 +471,7 @@
    font-family: 'Lato';
 }
 
-.name-rec{
+.name-box{
     display: flex;
     flex-direction: column;
 }
@@ -501,7 +483,7 @@
     padding: 2px;
 }
 
-.name-rec span{
+.name-box span{
     font-size: 13px;
     line-height: 80px;
     letter-spacing: 0.52px;
@@ -608,14 +590,12 @@ a{
     color: #2E2E2E;
     margin-bottom: 90px;
     font-family: 'Poppins';
-
 }
 
 .projects-box{
     display: flex;
     flex-direction: column;
 }
-
 .projects-box img{
     width: 300px;
     height: 350px;
@@ -746,7 +726,6 @@ a{
     color: #2E2E2E;
     margin-bottom: 70px;
     font-family: 'Poppins';
-
 }
 
 .one-block{
@@ -933,8 +912,6 @@ a{
 
 /* contact us section */
 .contact-us-section{
-    /* max-width: 1600px;
-    width: 100%; */
     height: 660px;
     background-image: url('../images/mapp.png');
 }
@@ -965,7 +942,6 @@ a{
     color: #FFFFFF;
     margin-bottom: 12px;
     font-family: 'Poppins';
-
 }
 
 .form-title span{
@@ -1026,7 +1002,6 @@ textarea{
 
 /* footer */
 .footer-section-one{
-    /* width: 100%; */
     height: 490px;
     background-color: #282828;
     display: flex;
@@ -1037,7 +1012,6 @@ textarea{
     display: flex;
     flex-direction: row;
     margin-top: 110px;
-
 }
 .footer-title h2{
     font-size: 55px;
@@ -1046,7 +1020,6 @@ textarea{
     color: #FFFFFF;
     margin-bottom: 23px;
     font-family: 'Poppins';
-
 }
 
 .footer-title span{
@@ -1067,7 +1040,6 @@ textarea{
 }
 
 .footer-section-two{
-    /* width: 100%; */
     height: 82px;
     background-color: #171717;
     display: flex;
@@ -1116,11 +1088,4 @@ textarea{
     padding: 10px;
     font-size: 20px;
     margin-left: 770px;
-}
-
-.form-field .has-error, .form-field .has-error:focus {
-    border: 1px solid red;
-}
-.error-message {
-    color: red;
 }
