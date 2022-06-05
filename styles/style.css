@@ -721,8 +721,8 @@ a{
 
 /* articles section */
 .articles{
-    /* max-width: 1600px;
-    width: 100%; */
+    max-width: 1600px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1085,7 +1085,7 @@ textarea{
 }
 
 
-
+/* modal popup */
 .modal {
     display: none;
     position: fixed;
@@ -1099,8 +1099,6 @@ textarea{
 }
 .modal.visible {
     display: block;
-    
-
 }
 
 .modal-content{
@@ -1115,13 +1113,10 @@ textarea{
     font-size: 20px;
     border: none;
     border-radius: 10px;
-    
     padding: 10px;
     margin-top: 25px;
     margin-left: 770px;
-
 }
-
 
 .form-field .has-error, .form-field .has-error:focus {
     border: 1px solid red;
